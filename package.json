@@ -15,9 +15,6 @@
   "main": "src/index.ts",
   "module": "src/index.ts",
   "type": "module",
-  "scripts": {
-    "publish": "npm publish --access=public"
-  },
   "devDependencies": {
     "@types/mime": "^3.0.1",
     "bun-types": "^1.0.2"
