@@ -1,6 +1,6 @@
 {
   "name": "@banh-mi/framework",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "Banh Mi is a web framework inspired by express for Bun runtime, unlike express it aims to support typescript fully with the performance advantages of Bun. It's in it's early stage with no sufficient testing. Contributions and advices on improvement are always welcome!",
   "author": {
     "email": "nethsarasandeepaelvitigala@gmail.com",
@@ -26,6 +26,10 @@
     "mime": "^3.0.0"
   },
   "exports": {
-    ".": "./src"
+    ".": "./src/index.ts",
+    "./core": "./src/core/index.ts",
+    "./enums": "./src/enums/index.ts",
+    "./types": "./src/types/index.ts",
+    "./utils": "./src/utils/index.ts"
   }
 }
