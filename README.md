@@ -10,7 +10,7 @@ It's in it's early stage with no sufficient testing. Contributions and advices o
 - builtin cookie parsing (lazily read)
 - fully typescript compatible
 - native async handlers support
-- fully typed apis with several generic functions to enforce types on ususally "any" values
+- fully typed APIs with several generic functions to enforce types on usually "any" values
 
 ## Upcoming features
 - builtin validations
